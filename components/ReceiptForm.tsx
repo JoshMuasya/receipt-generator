@@ -56,7 +56,7 @@ const ReceiptForm = () => {
   function onSubmit(values: z.infer<typeof formSchema>) {
     generatePDF({
       ...values,
-      logoUrl: "/logo.png"  // Path relative to public directory
+      logoUrl: "/Logo.png"  // Path relative to public directory
     });
   }
 
